@@ -1,0 +1,6 @@
+[21-Nov-2020 10:25:39 America/New_York] PHP Notice:  Undefined index: estado in /home/oscarsof/espinosa.oscarsoft.net/deprixa/settings/container/add_container.php on line 33
+[21-Nov-2020 10:25:39 America/New_York] PHP Stack trace:
+[21-Nov-2020 10:25:39 America/New_York] PHP   1. {main}() /home/oscarsof/espinosa.oscarsoft.net/deprixa/settings/container/add_container.php:0
+[02-Sep-2021 10:12:40 America/New_York] PHP Notice:  Undefined index: estado in /home/oscarsof/espinosa.oscarsoft.net/deprixa/settings/container/add_container.php on line 33
+[02-Sep-2021 10:12:40 America/New_York] PHP Stack trace:
+[02-Sep-2021 10:12:40 America/New_York] PHP   1. {main}() /home/oscarsof/espinosa.oscarsoft.net/deprixa/settings/container/add_container.php:0

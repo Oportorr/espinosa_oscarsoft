@@ -1,0 +1,35 @@
+*****************************************************
+COURIER DEPRIXA | V2.5
+PRODUCT OF: JAOM SOLUTIONS (http://jaom.co) osorio2380@yahoo.es
+DATE CREATED:  	22-09-2016
+*****************************************************
+
+
+A brief overview of the licence is detailed below:
+
+The App License grants you, the Buyer, a non exclusive, non transferrable 
+limited right only to use the Application for personal use 
+and for a single user.
+
+Single Use mean:
+
+	single website (commercial, personal, or non-profit).
+	single intranet site project.
+	
+In particular you must not:
+
+*	directly or indirectly license, sub-license, sell or resell or provide 
+	for free the Application or offer to do any of these things (all of 
+	which are referred to as Resale);
+*	reproduce the Application or decompose the application
+*	make the Application available on a website;
+*	use the Application in another work which you are creating; or
+*	incorporate the Application in another work which is created for Resale.
+
+
+JAOM can revoke LICENSE should any of these terms be breached. 
+Please contact osorio2380@yahoo.es if you have any questions.
+
+This document must remain un-modified.
+
+Any questions should be sent to osorio2380@yahoo.es

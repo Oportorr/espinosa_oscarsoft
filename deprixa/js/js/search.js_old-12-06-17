@@ -1,0 +1,74 @@
+$(document).on("click", "#submit", function () {
+    var order_id = $('#txt_orderid').val();
+    var phone_id = $('#txt_phone').val();
+    var sendername_id = $('#txt_sendername').val();
+    var receivername_id = $('#txt_receivername').val();
+
+    var treload = $('#tabla-usuarios').DataTable({
+        "bDestroy": true,
+        dom: 'T<"clear">lfrtip',
+        tableTools: {
+            "sSwfPath": "plugins/DataTables/extensions/TableTools/swf/copy_csv_xls_pdf.swf", // ruta del complemento flash necesario para las exportaciones
+
+            "aButtons": [// configuración de botones
+                {
+                    "sExtends": "copy",
+                    "sButtonText": "Copy", // texto personalizado
+                    "fnComplete": function () { // mensaje personalizado
+                        this.fnInfo('<h3>Copied Table</h3>\
+									<p>Use Ctrl + v to paste the copied.</p>',
+                                2500 // tiempo en milisegundos que se muestra visible el mensaje
+                                );
+                    },
+                    "mColumns": [0, 1, 2, 3, 4] // columnas que seran copiadas
+
+                },
+                {
+                    "sExtends": "csv",
+                    "sButtonText": "CSV",
+                    "mColumns": [0, 1, 2, 3, 4]
+                },
+                {
+                    "sExtends": "xls",
+                    "sButtonText": "Exel",
+                    "mColumns": [0, 1, 2, 3, 4]
+                },
+                {
+                    "sExtends": "pdf",
+                    "sButtonText": "PDF",
+                    "mColumns": [0, 1, 2, 3, 4]
+                },
+                {
+                    "sExtends": "print",
+                    "sButtonText": "Print",
+                    "sInfo": "<H2> print view </ h2> <br> Use the print function of your browser or Ctrl + P. precione Press escape to exit. " // mensaje personalizado
+                }
+
+
+            ]
+
+
+
+        }, // fin de configurar botones tabletools
+        "oLanguage": {
+            "sUrl": "plugins/dataTables/dataTables.spanish.txt"  // idioma español para data tables
+        },
+        ajax: {// configuraciÃ³n ajax
+            url: './search.php',
+            type: "post",
+            data: {order_id: order_id, phone: phone_id, Sender_name: sendername_id, receiver_name: receivername_id},
+            dataType: 'json',
+            "dataSrc": ""
+        },
+        columns: [// columnas que seran mostradas este debe ser igual a la cantidad de <theads> de la tabla
+            {data: 'cid'}, // recuperamos y mostramos
+			 {data: 'ship_name'},
+            {data: 'name'},
+            {data: 'ship_qty'},
+            {data: 'balance'},
+            {data: 'off_name'},
+        ]
+    });
+       var tt = new $.fn.dataTable.TableTools(treload); // buscamos la extensión table tools
+        $(tt.fnContainer()).insertBefore('div.dataTables_wrapper');
+});

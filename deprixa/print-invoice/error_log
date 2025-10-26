@@ -1,0 +1,66 @@
+[21-Aug-2017 18:22:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cesaradmin/public_html/cesarcargoexp.com/deprixa/print-invoice/invoice-print-old.php on line 40
+[21-Aug-2017 18:22:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cesaradmin/public_html/cesarcargoexp.com/deprixa/print-invoice/invoice-print-old.php on line 40
+[09-Aug-2019 08:34:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php:29
+Stack trace:
+#0 /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php(32): require_once()
+#1 {main}
+  thrown in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[19-Aug-2023 14:44:35 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php on line 40
+[19-Aug-2023 14:44:35 America/New_York] PHP Stack trace:
+[19-Aug-2023 14:44:35 America/New_York] PHP   1. {main}() /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php:0
+[24-Jan-2024 12:20:54 America/New_York] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[24-Jan-2024 12:20:54 America/New_York] PHP Stack trace:
+[24-Jan-2024 12:20:54 America/New_York] PHP   1. {main}() /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php:0
+[24-Jan-2024 12:20:54 America/New_York] PHP   2. require_once() /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php:32
+[24-Jan-2024 12:20:54 America/New_York] PHP   3. mysql_connect() /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php:29
+[24-Jan-2024 12:20:54 America/New_York] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[24-Jan-2024 12:20:54 America/New_York] PHP Stack trace:
+[24-Jan-2024 12:20:54 America/New_York] PHP   1. {main}() /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php:0
+[24-Jan-2024 12:20:54 America/New_York] PHP   2. require_once() /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php:32
+[24-Jan-2024 12:20:54 America/New_York] PHP   3. mysql_connect() /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php:29
+[01-Mar-2024 15:29:37 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[05-Mar-2024 10:31:26 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[05-Mar-2024 10:31:38 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[05-Mar-2024 10:31:46 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[18-May-2024 14:42:36 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:41:24 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:41:30 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:41:34 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:41:37 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:41:42 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:42:08 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:42:19 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:42:31 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Dec-2024 21:42:32 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[23-Dec-2024 23:15:40 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[23-Dec-2024 23:15:42 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[23-Dec-2024 23:15:47 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[23-Dec-2024 23:16:01 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[02-Apr-2025 23:57:11 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[02-Apr-2025 23:57:15 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[02-Apr-2025 23:57:15 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[02-Apr-2025 23:57:15 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[02-Apr-2025 23:57:17 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[02-Apr-2025 23:57:36 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[04-May-2025 14:49:41 UTC] PHP Warning:  Error while sending QUERY packet. PID=17565 in /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php on line 236
+[04-May-2025 14:49:41 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php on line 238
+[04-May-2025 14:49:41 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/oscarsof/espinosa.oscarsoft.net/deprixa/print-invoice/invoice-print-old.php on line 279
+[10-Jun-2025 15:38:50 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[10-Jun-2025 15:38:55 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[07-Jul-2025 08:53:08 UTC] PHP Warning:  mysql_connect(): No such file or directory in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[19-Aug-2025 12:17:49 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[19-Aug-2025 12:17:50 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[19-Aug-2025 12:17:50 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[19-Aug-2025 12:17:51 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[07-Oct-2025 12:15:29 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[07-Oct-2025 12:15:29 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[07-Oct-2025 12:15:31 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[07-Oct-2025 18:01:02 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Oct-2025 00:58:12 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Oct-2025 00:58:14 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[08-Oct-2025 00:58:18 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[14-Oct-2025 13:24:12 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[15-Oct-2025 22:37:50 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[15-Oct-2025 22:37:56 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[15-Oct-2025 22:38:32 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29
+[15-Oct-2025 22:38:33 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/oscarsof/espinosa.oscarsoft.net/deprixa/database.php on line 29

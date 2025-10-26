@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head> <!-- Facebook Pixel Code -->
+        <script>
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '<?=$_GET['pl'];?>');
+          fbq('track', 'Lead');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=<?=$_GET['pl'];?>&ev=Lead&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+                    <title></title>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="/assets_pages/upsells/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/assets_pages/upsells/favicon.ico" type="image/x-icon">
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,300italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link media="all" href="/assets_pages/upsells/css/main.css?v=0.1" rel="stylesheet" type="text/css">
+        <link media="all" href="/assets_pages/upsells/css/hint.css" rel="stylesheet" type="text/css">
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="/assets_pages/upsells/js/jquery.placeholder.js"></script>
+        <script src="/assets_pages/js/lib.js"></script>
+        <script src="/assets_pages/upsells/js/init.js"></script>
+        
+        <script>
+            $(function() {
+                $('.btn_ss_holder').click(function() {
+                    Lib.request('/ContactCollector/ajaxCollect', {
+                        fio: '', 
+                        email: $('#email_subscribe').val(), 
+                        product_id: '', 
+                        ip_addr: ''
+                    }, function(result, data) {
+                        if (!result && data)
+                            return alert(data);
+                        if (result)
+                            $('.desc_cc_holder').html('<div class="thanks"><b>Спасибо за участие!</b><br><span>На Вашу почту выслано письмо для подтверждения подписки</span></div>');
+                    });
+                });
+            });
+        </script>
+    </head>
+    
+    <body class="man" style="background-color: #f1f4f6;">
+        <div class="first-block">
+            <div class="wrapper">
+                <div class="wrap">
+                    <div class="top-title top-title-c">
+                        <h2 style="color: #55d90d;">Спасибо. Ваш заказ принят!</h2>
+                                                <div style="color: white; font-weight: bold;">Мы позвоним Вам в ближайшие 15 минут. Держите телефон рядом.<br />
+                            Наш колл центр работает круглосуточно.</div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section footer">
+            <div class="wrap clearfix">
+                <div class="right"><p>Copyright (c) 2021</p></div>
+            </div>
+        </div>
+
+                    <!--PopUp-->
+            <div class="popup reg_form reg_form_pop">
+                <a class="close">Close</a>
+
+                <h2 id="center1">Написать отзыв</h2>
+
+                <div>
+                    <form id="comment-form" action="" class="clearfix">
+                        <div>
+                            <input type="text" placeholder="Введите ваше имя" required="">
+                        </div>
+                        <div>
+                            <textarea cols="" rows="8" placeholder="Введите текст отзыва" required=""></textarea>
+                        </div>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+                
+
+
+
+
+
+
+
+    </body>
+</html>
